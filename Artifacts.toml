@@ -1,113 +1,113 @@
 [[capnproto]]
-arch = "armv7l"
-git-tree-sha1 = "142874620cd60c68869931ed0fd61e23c3fa1d39"
-libc = "glibc"
-os = "linux"
-
-    [[capnproto.download]]
-    sha256 = "0cd3a5fc9cce75aee773394f3a5e572564930c490cd465a3eda6bd672a20b983"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.arm-linux-gnueabihf.tar.gz"
-[[capnproto]]
-arch = "x86_64"
-git-tree-sha1 = "71c296badb663b37d5a00e1c190f6d9dc306b1a6"
-libc = "glibc"
-os = "linux"
-
-    [[capnproto.download]]
-    sha256 = "c5aa341c4620a2f7c529d2ee8a4176ee694b7319d3b76e64fadc1afeb8bfb9af"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.x86_64-linux-gnu.tar.gz"
-[[capnproto]]
-arch = "aarch64"
-git-tree-sha1 = "1c0df23c51e6e6858c199fb1099870c102a9ceb4"
+arch = "i686"
+git-tree-sha1 = "e4cd57816863264515b2a038c8d8b97cfb7c1363"
 libc = "musl"
 os = "linux"
 
     [[capnproto.download]]
-    sha256 = "b2772557145e5cb948e1d5da658153236f80dad11499e10bb348095d081edfe1"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.aarch64-linux-musl.tar.gz"
+    sha256 = "e28a7debd05df8427e01f6097d601042a0e45ce9b8d7343158bcfdc1701e281b"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.i686-linux-musl.tar.gz"
 [[capnproto]]
-arch = "powerpc64le"
-git-tree-sha1 = "4686c1f0725d4087770bae7829e121cc8f7ed70a"
+arch = "aarch64"
+git-tree-sha1 = "06ed642218320e2913994bad4c307e9d347f02e2"
+libc = "musl"
+os = "linux"
+
+    [[capnproto.download]]
+    sha256 = "22661899c5ca28e0801d83e728bb03245217f8a7f84d50883c2dd7f96cb940ad"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.aarch64-linux-musl.tar.gz"
+[[capnproto]]
+arch = "i686"
+git-tree-sha1 = "633db7f52fa7fe1f744e985ed635f61232b044ab"
+os = "windows"
+
+    [[capnproto.download]]
+    sha256 = "b8a2e31957ab9d7e3515ad89de849f4f1b476a326748bc95c2f3d8730c74ac96"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.i686-w64-mingw32.tar.gz"
+[[capnproto]]
+arch = "x86_64"
+git-tree-sha1 = "c521fba09abcec8c4460bb9aebcce9d4845d3324"
+os = "windows"
+
+    [[capnproto.download]]
+    sha256 = "193aa6080d10714ad3e705d0cdae7fedddb1055db8d2e12ebaaea5e2d5ea400e"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.x86_64-w64-mingw32.tar.gz"
+[[capnproto]]
+arch = "armv7l"
+git-tree-sha1 = "ce40749ebf2d0a7e75c1e5168e21959411be8d18"
 libc = "glibc"
 os = "linux"
 
     [[capnproto.download]]
-    sha256 = "7dadfe2ec9952f73dfada2d48cfdcdf6bd3cccad7ff54924ee9a400bddfa624d"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "56f36aa04e976b16bb8519dea80c95a4a7ee2fe136867b8320cfe073607b524f"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.armv7l-linux-gnueabihf.tar.gz"
+[[capnproto]]
+arch = "armv7l"
+git-tree-sha1 = "4ebe45fe98a45e3ee7c9be41aab4bb1aa47984b4"
+libc = "musl"
+os = "linux"
+
+    [[capnproto.download]]
+    sha256 = "aa78c9074788386517c38b8edac8dcf80afda2121199fe4ccc3637d50c9abf93"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.armv7l-linux-musleabihf.tar.gz"
+[[capnproto]]
+arch = "i686"
+git-tree-sha1 = "82e12d097827956ce5807e227086ee115ce74a41"
+libc = "glibc"
+os = "linux"
+
+    [[capnproto.download]]
+    sha256 = "b8e03ef1bd13cb5b0c36f60736cb4db77885ef5b57a67f0b28027e81f0cc5546"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.i686-linux-gnu.tar.gz"
 [[capnproto]]
 arch = "x86_64"
-git-tree-sha1 = "20411065ffc218daefb66a49b8cb97c7a6468176"
+git-tree-sha1 = "7ccad40eed5c2667a772729db5d53707449f27ae"
+libc = "glibc"
+os = "linux"
+
+    [[capnproto.download]]
+    sha256 = "c817b0a658e2f9f4e0be440766a4348664f5bbaba8f46d4ada960566745f3126"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.x86_64-linux-gnu.tar.gz"
+[[capnproto]]
+arch = "powerpc64le"
+git-tree-sha1 = "28e2eb6c64b56fccb49a1ac33646ce12a93f3054"
+libc = "glibc"
+os = "linux"
+
+    [[capnproto.download]]
+    sha256 = "cb0dd4a3c52fd32f6ebdd45e8b18df32e6dcd5cabe9f6028e54ef141058cea55"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.powerpc64le-linux-gnu.tar.gz"
+[[capnproto]]
+arch = "x86_64"
+git-tree-sha1 = "e582871eef2ce2001a33c6a6bf16007805a4f464"
 os = "macos"
 
     [[capnproto.download]]
-    sha256 = "ac75f6ce663bcb4e40db1d1decb4047d5daaae8aa293b188990ece6a8528c3a6"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.x86_64-apple-darwin14.tar.gz"
-[[capnproto]]
-arch = "x86_64"
-git-tree-sha1 = "f41fdf7f9c412921c4858465a1ce2bdb553024d8"
-libc = "musl"
-os = "linux"
-
-    [[capnproto.download]]
-    sha256 = "39fbef4469215886e57b80c1a1c4aeafd7d6822fee681b5e57d4f28708254b7a"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.x86_64-linux-musl.tar.gz"
-[[capnproto]]
-arch = "x86_64"
-git-tree-sha1 = "d4d9087559d9fe5cd6077f6174b8e32b7eb15f86"
-os = "windows"
-
-    [[capnproto.download]]
-    sha256 = "5589c1ebd25ae8b800a0c90e61ddb9a2ab155dee204409a02e40fbd5d96035c8"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.x86_64-w64-mingw32.tar.gz"
-[[capnproto]]
-arch = "i686"
-git-tree-sha1 = "805db7f9b953b6d86abb7069bba48e062f681311"
-libc = "glibc"
-os = "linux"
-
-    [[capnproto.download]]
-    sha256 = "b508e729b69e303a49d6f1fdb8f7538699df56c99610e4ad1e709f2a1bb2435b"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.i686-linux-gnu.tar.gz"
+    sha256 = "cc0d7c5e79d91dfdee447531de7b4c6f7264efdb11255806bdf87aba2f242df7"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.x86_64-apple-darwin14.tar.gz"
 [[capnproto]]
 arch = "aarch64"
-git-tree-sha1 = "bde62ee43d639a256fd5ad59002e7db7154b72d2"
+git-tree-sha1 = "a9dee40083c039d8843f740b8061bded3777cf89"
 libc = "glibc"
 os = "linux"
 
     [[capnproto.download]]
-    sha256 = "1670da4fcaece0d99d51df3aa5e203002c7d93a404f1067a0d60ff6e2d40037c"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.aarch64-linux-gnu.tar.gz"
-[[capnproto]]
-arch = "i686"
-git-tree-sha1 = "fc33c83b03b6a26da8db42314ac5425861b416eb"
-libc = "musl"
-os = "linux"
-
-    [[capnproto.download]]
-    sha256 = "83c4f30b264ea6894da4d06a67f9e9f1bba4e4f0d8684d3a694d4582464d0a46"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.i686-linux-musl.tar.gz"
+    sha256 = "5affca46be5e86ff75c562a5baa834ebd7b8a5a657ed80c9a3fb4bcdcd80c4f2"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.aarch64-linux-gnu.tar.gz"
 [[capnproto]]
 arch = "x86_64"
-git-tree-sha1 = "ecd0b104825184f72feafd2a3aec1bc826ad1cd0"
+git-tree-sha1 = "1c61fd6b4362e7f0af5112ee8e7e4eeae751a688"
 os = "freebsd"
 
     [[capnproto.download]]
-    sha256 = "0d9ecf37cdc3d55e89a9e2df7ca064f6180381177b62452793bfbe60f3f29d95"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "a19dfe0af70a856d8481a8bbf80dd4e61da419d2634a6f8db24454619bd71f83"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.x86_64-unknown-freebsd11.1.tar.gz"
 [[capnproto]]
-arch = "i686"
-git-tree-sha1 = "ffb0f55bb78e7f59c4b42cce5146250e36a9e4e9"
-os = "windows"
-
-    [[capnproto.download]]
-    sha256 = "fd6a11868724b531256e7707a7c4f299a23431282ed3fa8e92b31e7e731212ad"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.i686-w64-mingw32.tar.gz"
-[[capnproto]]
-arch = "armv7l"
-git-tree-sha1 = "afe771edd5bff75f79afd872d54c6c991945fc4c"
+arch = "x86_64"
+git-tree-sha1 = "f96374c3444912c5109de375c1edee1bba2a0511"
 libc = "musl"
 os = "linux"
 
     [[capnproto.download]]
-    sha256 = "8ef456f8d38c896e36677024879ff4790e19ceb4152b3f22c05598c81ca14ef7"
-    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+0/capnproto.v0.7.0.arm-linux-musleabihf.tar.gz"
+    sha256 = "13187b58c37b4de264c8584e5f0c565178e74ddabf5837e247900cfca28b63f1"
+    url = "https://github.com/JuliaBinaryWrappers/capnproto_jll.jl/releases/download/capnproto-v0.7.0+1/capnproto.v0.7.0.x86_64-linux-musl.tar.gz"
